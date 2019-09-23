@@ -13,6 +13,11 @@ import { AngularFirestoreModule } from '@angular/fire/firestore';
 import { environment } from '../environments/environment';
 import { HttpClientModule } from '@angular/common/http';
 
+import { Observable } from 'rxjs';
+
+
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,7 +33,7 @@ import { HttpClientModule } from '@angular/common/http';
     AngularFirestoreModule,
     AppRoutingModule,
     FormsModule
-  ],
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })
